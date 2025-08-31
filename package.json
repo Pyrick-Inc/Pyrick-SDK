@@ -1,0 +1,44 @@
+{
+  "name": "@pyrick/sdk",
+  "version": "0.1.0",
+  "description": "Pyrick SDK - Open-source Software Development Kit for integrating with Pyrick platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist/**/*",
+    "contracts/**/*"
+  ],
+  "keywords": [
+    "pyrick",
+    "crm",
+    "sdk",
+    "microservices",
+    "typescript"
+  ],
+  "author": "Pyrick Systems",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pyrick/pyrick-sdk.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "jest": "^29.6.2",
+    "@types/jest": "^29.5.3",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
