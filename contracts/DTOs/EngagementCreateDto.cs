@@ -10,7 +10,7 @@ namespace Pyrick.Api.Data.DTOs.Engagement
         public string? Description { get; set; }
         public DateTime? EngagementDate { get; set; }
         public JsonDocument? CustomFields { get; set; }
-        // CoreConfigurationId removed - obtained from authenticated user context
+        // TenantId removed - obtained from authenticated user context
         public Guid? AddressId { get; set; }
         public Guid? WorkflowId { get; set; }
         public Guid? WorkflowTypeId { get; set; }

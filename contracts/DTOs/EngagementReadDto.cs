@@ -12,7 +12,7 @@ namespace Pyrick.Api.Data.DTOs.Engagement
         public DateTime CreatedAt { get; set; }
         public DateTime? EngagementDate { get; set; }
         public JsonDocument? CustomFields { get; set; }
-        // CoreConfigurationId removed - should not be exposed to frontend
+        // TenantId removed - should not be exposed to frontend
         public Guid? AddressId { get; set; }
         public Guid? WorkflowId { get; set; }
         

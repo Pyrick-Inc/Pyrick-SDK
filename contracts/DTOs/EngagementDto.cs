@@ -17,7 +17,7 @@ namespace Pyrick.SDK.Contracts.DTOs
         public Guid RegisteredOrganizationId { get; set; }
         
         [Required]
-        public Guid CoreConfigurationId { get; set; }
+        public Guid TenantId { get; set; }
         
         [Required]
         [StringLength(100)]

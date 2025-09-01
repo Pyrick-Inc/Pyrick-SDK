@@ -70,7 +70,7 @@ namespace Pyrick.SDK.Contracts.Interfaces
         public string? Description { get; set; }
         public Guid CreatedBy { get; set; }
         public Guid RegisteredOrganizationId { get; set; }
-        public Guid CoreConfigurationId { get; set; }
+        public Guid TenantId { get; set; }
     }
     
     public class UpdateEngagementRequest
