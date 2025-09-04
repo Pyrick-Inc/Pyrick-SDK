@@ -1,0 +1,9 @@
+{
+  "extends": "../Nomos/tsconfig/frontend.json",
+  "include": ["packages"],
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "outDir": "dist"
+  }
+}
