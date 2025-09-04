@@ -1,3 +1,0 @@
-[submodule "shared-configuration"]
-	path = shared-configuration
-	url = git@github.com:Pyrick-Inc/Shared-Configuration.git
