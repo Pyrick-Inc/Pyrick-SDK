@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "noEmit": true
+  },
+  "include": ["src", "vite-env.d.ts"]
+}
