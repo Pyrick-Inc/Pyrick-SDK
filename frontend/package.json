@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@pyrick-inc/eslint-config": "latest",
-    "@pyrick-inc/vite-config": "1.0.5",
+    "@pyrick-inc/vite-config": "latest",
     "@tanstack/router-vite-plugin": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
