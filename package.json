@@ -11,6 +11,9 @@
     "dev": "tsc --watch",
     "test": "jest",
     "check": "biome ci .",
+    "type-check": "tsc --build --noEmit",
+    "type-check:watch": "tsc --build --noEmit --watch",
+    "type-check:strict": "tsc --build --noEmit --force",
     "prepublishOnly": "npm run build"
   },
   "files": [

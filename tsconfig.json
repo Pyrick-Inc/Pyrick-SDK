@@ -1,9 +1,10 @@
 {
-  "extends": "../Nomos/tsconfig/frontend.json",
-  "include": ["packages"],
+  "extends": "./tsconfig.base.json",
+  "include": ["packages", "src"],
   "compilerOptions": {
     "composite": true,
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "skipLibCheck": false
   }
 }
