@@ -49,3 +49,4 @@ obj/
 *.suo
 *.userosscache
 *.sln.docstates.npmrc
+.npmrc
